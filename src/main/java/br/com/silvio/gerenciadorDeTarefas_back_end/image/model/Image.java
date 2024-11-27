@@ -42,4 +42,12 @@ public class Image {
     public void setFileName(String fileName) {
         this.fileName = fileName;
     }
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
+    }
 }
